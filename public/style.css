@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+    font-family: basic-sans;
+    color: black;
+    font-size: 16px;
+}
+
+html, body {    
+	margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.container-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: red;
+    height: 60%;
+    width: 100%;
+    border: none;
+}
+
+
+
+
